@@ -1,0 +1,4 @@
+{
+  "name": "@js-dot/form/view",
+  "main": "public-api.ts"
+}

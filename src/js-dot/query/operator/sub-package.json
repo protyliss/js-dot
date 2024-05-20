@@ -1,0 +1,4 @@
+{
+  "name": "@js-dot/query/operator",
+  "main": "public-api.ts"
+}

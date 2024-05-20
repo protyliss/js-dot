@@ -1,0 +1,4 @@
+{
+  "name": "@js-dot/core/route",
+  "main": "public-api.ts"
+}

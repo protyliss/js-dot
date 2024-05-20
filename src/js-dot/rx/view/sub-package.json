@@ -1,0 +1,7 @@
+{
+  "name": "@js-dot/rx/view",
+  "main": "public-api.ts",
+  "dependencies": {
+    "rxjs": ">=7"
+  }
+}

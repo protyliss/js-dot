@@ -1,0 +1,12 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "entryPointStrategy": "packages",
+  "tsconfig": "./tsconfig.json",
+  "plugin": [
+    "typedoc-material-theme"
+  ],
+  "themeColor": "#369",
+  "hideGenerator": true,
+  "categorizeByGroup": true,
+  "defaultCategory": "Not Allocated"
+}

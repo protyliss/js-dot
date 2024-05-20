@@ -1,0 +1,4 @@
+{
+  "name": "@js-dot/data/frame",
+  "main": "public-api.ts"
+}

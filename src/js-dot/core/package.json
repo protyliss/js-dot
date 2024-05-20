@@ -1,0 +1,8 @@
+{
+  "name": "@js-dot/core",
+  "description": "Base Utility Class and Functions",
+  "main": "public-api.ts",
+  "dependencies": {
+    "tsup": "^8.0.2"
+  }
+}

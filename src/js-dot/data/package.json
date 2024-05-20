@@ -1,0 +1,7 @@
+{
+  "name": "@js-dot/data",
+  "main": "public-api.ts",
+  "peerDependencies": {
+    "@js-dot/core": ">=24"
+  }
+}

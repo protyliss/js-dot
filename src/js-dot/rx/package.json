@@ -1,0 +1,11 @@
+{
+  "name": "@js-dot/rx",
+  "main": "public-api.ts",
+  "peerDependencies": {
+    "@js-dot/core": ">=24",
+    "@js-dot/ui": ">=24"
+  },
+  "dependencies": {
+    "rxjs": ">=7"
+  }
+}

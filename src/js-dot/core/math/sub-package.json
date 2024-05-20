@@ -1,0 +1,4 @@
+{
+  "name": "@js-dot/core/math",
+  "main": "public-api.ts"
+}

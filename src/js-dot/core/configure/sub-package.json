@@ -1,0 +1,4 @@
+{
+  "name": "@js-dot/core/configure",
+  "main": "public-api.ts"
+}

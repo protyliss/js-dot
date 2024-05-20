@@ -1,0 +1,8 @@
+{
+  "name": "@js-dot/frame",
+  "description": "Micro-Framework Utilities",
+  "main": "public-api.ts",
+  "peerDependencies": {
+    "@js-dot/core": ">=24"
+  }
+}

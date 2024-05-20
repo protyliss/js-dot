@@ -1,0 +1,100 @@
+{
+  "compilerOptions": {
+    "target"                          : "ESNext",
+    "module"                          : "ESNext",
+    "lib"                             : [
+      "dom",
+      "ESNext",
+      "webworker"
+    ],
+    "declaration"                     : true,
+    "declarationDir"                  : "./dist",
+    "outDir"                          : "./dist",
+    "removeComments"                  : false,
+    "importHelpers"                   : true,
+    "strict"                          : false,
+    "noImplicitAny"                   : false,
+    "moduleResolution"                : "node",
+    "baseUrl"                         : "./",
+    "rootDir"                         : "./src",
+    "esModuleInterop"                 : true,
+    "skipLibCheck"                    : true,
+    "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators"          : true,
+    "emitDecoratorMetadata": true,
+    "paths"                           : {
+      "@js-dot/*"          : [
+        "src/js-dot/*/public-api.ts"
+      ],
+      "@js-dot/dev/*"         : [
+        "src/js-dot/dev/*/public-api.ts"
+      ],
+      "@js-dot/api/*"         : [
+        "src/js-dot/api/*/public-api.ts"
+      ],
+      "@js-dot/ui/*"          : [
+        "src/js-dot/ui/*/public-api.ts"
+      ],
+      "@js-dot/data/*"        : [
+        "src/js-dot/data/*/public-api.ts"
+      ],
+      "@js-dot/frame/*"       : [
+        "src/js-dot/frame/*/public-api"
+      ],
+      "@js-dot/talk/*"        : [
+        "src/js-dot/talk/*/public-api.ts"
+      ],
+      "@node-dot/core"        : [
+        "src/node-dot/core/public-api.ts"
+      ],
+      "@node-dot/core/*"      : [
+        "src/node-dot/core/*/public-api.ts"
+      ],
+      "@node-dot/build"       : [
+        "src/node-dot/build/public-api.ts"
+      ],
+      "@node-dot/build/*"     : [
+        "src/node-dot/build/*/public-api.ts"
+      ],
+      "@node-dot/build-es"    : [
+        "src/node-dot/build-es/public-api.ts"
+      ],
+      "@node-dot/build-es/*"  : [
+        "src/node-dot/build-es/*/public-api.ts"
+      ],
+      "@node-dot/work"        : [
+        "src/node-dot/work/public-api.ts"
+      ],
+      "@node-dot/work/*"      : [
+        "src/node-dot/work/*/public-api.ts"
+      ],
+      "@node-dot/log"         : [
+        "src/node-dot/log/public-api"
+      ]
+    },
+    "rootDirs": ["src/js-dot"]
+  },
+  "exclude"        : [
+    "node_modules",
+    "dist",
+    "dist-ts",
+    "pending",
+    "**/*.jest.ts",
+    "**/*.test.ts",
+    "**/*.d.ts",
+    "lab",
+    "dev",
+    "src/lab",
+    "src/dev",
+    "*.ts",
+    "*.mts",
+    "*.cts"
+  ],
+  "ts-node"        : {
+    "transpileOnly"  : true,
+    "compilerOptions": {
+      "esModuleInterop": true,
+      "module"         : "CommonJS"
+    }
+  }
+}

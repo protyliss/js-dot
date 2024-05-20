@@ -1,0 +1,4 @@
+{
+  "name": "@js-dot/api/fetch",
+  "main": "public-api.ts"
+}

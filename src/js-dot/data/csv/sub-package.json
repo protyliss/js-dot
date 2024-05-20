@@ -1,0 +1,4 @@
+{
+  "name": "@js-dot/data/csv",
+  "main": "public-api.ts"
+}

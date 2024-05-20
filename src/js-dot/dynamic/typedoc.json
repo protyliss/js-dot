@@ -1,0 +1,7 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "entryPoints": [
+    "public-api.ts",
+    "*/public-api.ts"
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "name": "@js-dot/talk/ws",
+  "main": "public-api.ts"
+}

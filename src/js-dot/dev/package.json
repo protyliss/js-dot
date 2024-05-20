@@ -1,0 +1,5 @@
+{
+  "name": "@js-dot/dev",
+  "description": "Developing Support & Guidelines",
+  "main": "public-api.ts"
+}

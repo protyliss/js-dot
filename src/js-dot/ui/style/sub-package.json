@@ -1,0 +1,4 @@
+{
+  "name": "@js-dot/ui/style",
+  "main": "public-api.ts"
+}

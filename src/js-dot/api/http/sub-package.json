@@ -1,0 +1,4 @@
+{
+  "name": "@js-dot/api/http",
+  "main": "public-api.ts"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "@js-dot/form",
+  "main": "public-api.ts",
+  "peerDependencies": {
+    "@js-dot/core": ">=24",
+    "@js-dot/ui": ">=24"
+  }
+}

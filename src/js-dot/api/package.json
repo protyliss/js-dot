@@ -1,0 +1,8 @@
+{
+  "name": "@js-dot/api",
+  "description": "HTTP, WebSocket, SSE, Worker Interface Design Pattern",
+  "main": "public-api.ts",
+  "peerDependencies": {
+    "@js-dot/core": ">=24"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "name": "@js-dot/dynamic",
+  "description": "Tiny Reactive Programming",
+  "main": "public-api.ts"
+}
